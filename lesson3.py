@@ -104,12 +104,15 @@
 # my_list = list()
 # my_list.append(q)
 # my_list.append(w)
+# my_list.append(-w)
 # i = 0
 # sum = 0
 # while i < k-1:    
 #     sum = q + w
 #     my_list.append(sum)
+#     my_list.append(-sum)
 #     q = w
 #     w = sum
 #     i+=1
+# my_list.sort()
 # print(my_list)
